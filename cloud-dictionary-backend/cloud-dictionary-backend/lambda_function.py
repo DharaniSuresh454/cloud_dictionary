@@ -20,6 +20,7 @@ def lambda_handler(event, context):
     response = table.get_item(Key={'term': term})
 
     if 'Item' in response:
+        item = response['Item']
         return {
             'statusCode': 200,
             'headers': {
@@ -27,8 +28,8 @@ def lambda_handler(event, context):
                 "Content-Type": "application/json"
             },
             'body': json.dumps({
-                'term': response['Item'].get('term', ''),
-                'description': response['Item'].get('description', 'No description available.')
+                'term': item.get('term', ''),
+                'description': item.get('definition', 'No description available.')  # <-- changed here
             })
         }
     else:
