@@ -1,0 +1,2602 @@
+[
+  {
+    "term": "Lambda",
+    "definition": "A compute service that runs code in response to events."
+  },
+  {
+    "term": "DynamoDB",
+    "definition": "A fully managed NoSQL database service."
+  },
+  {
+    "term": "API Gateway",
+    "definition": "A fully managed service to create and publish APIs."
+  },
+  {
+    "term": "Amplify",
+    "definition": "A development platform to build and deploy full-stack web apps."
+  },
+  {
+    "term": "S3",
+    "definition": "A scalable object storage service used to store and retrieve data."
+  },
+  {
+    "term": "Amazon EC2",
+    "definition": "Scalable virtual servers in AWS cloud."
+  },
+  {
+    "term": "Azure Virtual Machines",
+    "definition": "Microsoft Azure's virtualized compute resources."
+  },
+  {
+    "term": "Google Compute Engine",
+    "definition": "Google Cloud's infrastructure-as-a-service VMs."
+  },
+  {
+    "term": "Alibaba ECS",
+    "definition": "Elastic Compute Service from Alibaba Cloud."
+  },
+  {
+    "term": "Oracle Cloud Compute",
+    "definition": "Virtual machine compute resources from Oracle Cloud."
+  },
+  {
+    "term": "IBM Virtual Servers",
+    "definition": "Virtual servers hosted on IBM Cloud."
+  },
+  {
+    "term": "Lambda",
+    "definition": "Run code without provisioning servers on AWS."
+  },
+  {
+    "term": "Azure Functions",
+    "definition": "Serverless compute service on Microsoft Azure."
+  },
+  {
+    "term": "Cloud Run",
+    "definition": "Serverless containers on Google Cloud."
+  },
+  {
+    "term": "Cloud Functions",
+    "definition": "Event-driven serverless compute on GCP."
+  },
+  {
+    "term": "Fargate",
+    "definition": "Run containers without managing servers in AWS."
+  },
+  {
+    "term": "ECS",
+    "definition": "Amazon Elastic Container Service for Docker containers."
+  },
+  {
+    "term": "EKS",
+    "definition": "Amazon Elastic Kubernetes Service for managing Kubernetes."
+  },
+  {
+    "term": "AKS",
+    "definition": "Azure Kubernetes Service for container orchestration."
+  },
+  {
+    "term": "GKE",
+    "definition": "Google Kubernetes Engine, managed Kubernetes service."
+  },
+  {
+    "term": "Azure Blob Storage",
+    "definition": "Object storage from Azure for unstructured data."
+  },
+  {
+    "term": "Google Cloud Storage",
+    "definition": "Unified object storage for developers and enterprises."
+  },
+  {
+    "term": "Alibaba OSS",
+    "definition": "Alibaba Cloud's Object Storage Service."
+  },
+  {
+    "term": "IBM Cloud Object Storage",
+    "definition": "Highly scalable cloud storage from IBM."
+  },
+  {
+    "term": "File Storage",
+    "definition": "Stores data in a file hierarchy, used with network shares."
+  },
+  {
+    "term": "Block Storage",
+    "definition": "Storage that operates at the block level, used for databases."
+  },
+  {
+    "term": "Cold Storage",
+    "definition": "Low-cost storage for infrequently accessed data."
+  },
+  {
+    "term": "Hot Storage",
+    "definition": "High-speed storage for frequently accessed data."
+  },
+  {
+    "term": "Amazon EFS",
+    "definition": "Elastic File System for scalable file storage in AWS."
+  },
+  {
+    "term": "Azure Files",
+    "definition": "Managed file shares for cloud or on-premises deployments."
+  },
+  {
+    "term": "Amazon Glacier",
+    "definition": "Low-cost archive storage in AWS."
+  },
+  {
+    "term": "Nearline Storage",
+    "definition": "Google’s storage for data accessed less than once a month."
+  },
+  {
+    "term": "Amazon VPC",
+    "definition": "Virtual Private Cloud to provision a logically isolated network."
+  },
+  {
+    "term": "Azure Virtual Network",
+    "definition": "Azure's private network for resources."
+  },
+  {
+    "term": "Google VPC",
+    "definition": "Google Cloud’s virtual private networking service."
+  },
+  {
+    "term": "Cloud Load Balancing",
+    "definition": "Scalable load balancing for distributing traffic."
+  },
+  {
+    "term": "Elastic Load Balancer",
+    "definition": "Automatically distributes incoming traffic across targets."
+  },
+  {
+    "term": "Route 53",
+    "definition": "AWS DNS web service with domain registration and routing."
+  },
+  {
+    "term": "Cloud DNS",
+    "definition": "Google’s scalable, reliable domain name system."
+  },
+  {
+    "term": "ExpressRoute",
+    "definition": "Azure service for private connections to on-premise networks."
+  },
+  {
+    "term": "Cloud Interconnect",
+    "definition": "Dedicated network connection between GCP and your infrastructure."
+  },
+  {
+    "term": "AWS Direct Connect",
+    "definition": "Dedicated network connection to AWS."
+  },
+  {
+    "term": "Virtual Private Gateway",
+    "definition": "Provides access to AWS VPC from on-prem networks."
+  },
+  {
+    "term": "Internet Gateway",
+    "definition": "Enables internet access for AWS VPC instances."
+  },
+  {
+    "term": "Cloud NAT",
+    "definition": "Google’s managed network address translation service."
+  },
+  {
+    "term": "IAM",
+    "definition": "Manage access and permissions for AWS services."
+  },
+  {
+    "term": "Azure Active Directory",
+    "definition": "Identity and access management from Microsoft."
+  },
+  {
+    "term": "Google IAM",
+    "definition": "Google Cloud’s centralized permission control service."
+  },
+  {
+    "term": "Multi-Factor Authentication",
+    "definition": "Authentication using more than one method."
+  },
+  {
+    "term": "Encryption at Rest",
+    "definition": "Data encryption when stored."
+  },
+  {
+    "term": "Encryption in Transit",
+    "definition": "Data encryption when transmitted."
+  },
+  {
+    "term": "AWS KMS",
+    "definition": "AWS Key Management Service for encryption keys."
+  },
+  {
+    "term": "Cloud HSM",
+    "definition": "Hardware security module for managing cryptographic keys."
+  },
+  {
+    "term": "Firewall",
+    "definition": "Controls traffic in and out of networks."
+  },
+  {
+    "term": "Web Application Firewall",
+    "definition": "Protects applications from web exploits."
+  },
+  {
+    "term": "Shield",
+    "definition": "AWS DDoS protection service."
+  },
+  {
+    "term": "Security Groups",
+    "definition": "Virtual firewall for EC2 instances."
+  },
+  {
+    "term": "ACLs",
+    "definition": "Access Control Lists that define permissions."
+  },
+  {
+    "term": "Azure Key Vault",
+    "definition": "Securely store secrets, keys, and certificates in Azure."
+  },
+  {
+    "term": "Secrets Manager",
+    "definition": "Manage secrets and credentials securely."
+  },
+  {
+    "term": "OAuth",
+    "definition": "Protocol for authorization via third-party accounts."
+  },
+  {
+    "term": "SAML",
+    "definition": "XML-based standard for web browser SSO."
+  },
+  {
+    "term": "Zero Trust Security",
+    "definition": "Security model assuming no implicit trust."
+  },
+  {
+    "term": "Amazon RDS",
+    "definition": "Relational database service in AWS."
+  },
+  {
+    "term": "Azure SQL Database",
+    "definition": "Managed SQL database from Microsoft Azure."
+  },
+  {
+    "term": "Cloud SQL",
+    "definition": "Managed relational databases on Google Cloud."
+  },
+  {
+    "term": "Amazon DynamoDB",
+    "definition": "Fast NoSQL database for applications needing consistent performance."
+  },
+  {
+    "term": "Cosmos DB",
+    "definition": "Globally distributed NoSQL database by Azure."
+  },
+  {
+    "term": "Cloud Spanner",
+    "definition": "Scalable, multi-region, relational DB by Google."
+  },
+  {
+    "term": "Aurora",
+    "definition": "MySQL and PostgreSQL-compatible database by AWS."
+  },
+  {
+    "term": "Firestore",
+    "definition": "NoSQL cloud database for mobile, web, and server."
+  },
+  {
+    "term": "Oracle Autonomous DB",
+    "definition": "Self-driving database technology by Oracle."
+  },
+  {
+    "term": "Amazon Redshift",
+    "definition": "Data warehouse service from AWS."
+  },
+  {
+    "term": "BigQuery",
+    "definition": "Serverless data warehouse by Google Cloud."
+  },
+  {
+    "term": "SQL Server on Azure",
+    "definition": "SQL Server database hosted on Azure VMs."
+  },
+  {
+    "term": "MongoDB Atlas",
+    "definition": "Managed MongoDB database in the cloud."
+  },
+  {
+    "term": "Neptune",
+    "definition": "Graph database service by AWS."
+  },
+  {
+    "term": "DocumentDB",
+    "definition": "Fully managed document database service by AWS."
+  },
+  {
+    "term": "SageMaker",
+    "definition": "Build, train, and deploy ML models on AWS."
+  },
+  {
+    "term": "Vertex AI",
+    "definition": "Google’s end-to-end ML platform."
+  },
+  {
+    "term": "Azure Machine Learning",
+    "definition": "Build and deploy ML models in Azure."
+  },
+  {
+    "term": "TensorFlow",
+    "definition": "Open-source machine learning framework."
+  },
+  {
+    "term": "PyTorch",
+    "definition": "Open-source ML library from Facebook."
+  },
+  {
+    "term": "AI Platform",
+    "definition": "Google Cloud’s platform for ML training and prediction."
+  },
+  {
+    "term": "AutoML",
+    "definition": "Train high-quality models with minimal effort."
+  },
+  {
+    "term": "AWS Comprehend",
+    "definition": "Natural language processing service from AWS."
+  },
+  {
+    "term": "AWS Rekognition",
+    "definition": "Image and video analysis service."
+  },
+  {
+    "term": "Azure Cognitive Services",
+    "definition": "Prebuilt AI APIs for vision, speech, and language."
+  },
+  {
+    "term": "Speech to Text",
+    "definition": "Transcribes spoken words into written text."
+  },
+  {
+    "term": "Text to Speech",
+    "definition": "Converts written text into natural-sounding audio."
+  },
+  {
+    "term": "Natural Language API",
+    "definition": "Analyzes the structure and meaning of text."
+  },
+  {
+    "term": "Vision AI",
+    "definition": "Analyze and label images in Google Cloud."
+  },
+   {
+    "term": "CloudFormation",
+    "definition": "AWS service to define and provision infrastructure as code using templates."
+  },
+  {
+    "term": "Terraform",
+    "definition": "Open-source tool to provision and manage cloud infrastructure using code."
+  },
+  {
+    "term": "CloudWatch",
+    "definition": "Monitoring and observability service for AWS cloud resources and applications."
+  },
+  {
+    "term": "Azure Monitor",
+    "definition": "Collects, analyzes, and acts on telemetry data from Azure resources."
+  },
+  {
+    "term": "Anthos",
+    "definition": "Google Cloud’s platform to manage applications across hybrid and multi-cloud environments."
+  },
+  {
+    "term": "AWS CloudTrail",
+    "definition": "Tracks user activity and API usage in AWS for auditing."
+  },
+  {
+    "term": "Operations Suite (formerly Stackdriver)",
+    "definition": "Google Cloud's monitoring, logging, and diagnostics suite."
+  },
+  {
+    "term": "Bicep",
+    "definition": "Domain-specific language (DSL) for deploying Azure resources declaratively."
+  },
+  {
+    "term": "AWS Outposts",
+    "definition": "Brings native AWS services and infrastructure to on-premises locations."
+  },
+  {
+    "term": "Hybrid Cloud",
+    "definition": "Cloud environment that combines on-premises infrastructure with public or private cloud services."
+  },
+  {
+    "term": "Cloud Native",
+    "definition": "Approach to building and running applications that fully exploit cloud computing delivery models."
+  },
+  {
+    "term": "Serverless",
+    "definition": "Cloud computing model where cloud providers manage the server infrastructure."
+  },
+  {
+    "term": "Multi-Cloud",
+    "definition": "Using services from more than one cloud provider in a single architecture."
+  },
+  {
+    "term": "Elasticity",
+    "definition": "Ability to automatically scale resources up or down as needed."
+  },
+  {
+    "term": "Availability Zone",
+    "definition": "Geographically isolated data center within a cloud region for high availability."
+  },
+  {
+    "term": "Cloud Region",
+    "definition": "Geographical area where a cloud provider’s data centers are located."
+  },
+  {
+    "term": "Auto Scaling",
+    "definition": "Automatically adjusts compute resources based on traffic or load."
+  },
+  {
+    "term": "Spot Instances",
+    "definition": "Spare compute capacity offered at lower prices, used for fault-tolerant workloads."
+  },
+  {
+    "term": "Reserved Instances",
+    "definition": "Compute instances reserved in advance for predictable workloads, at a discounted rate."
+  },
+  {
+    "term": "IAM Roles",
+    "definition": "Set of permissions assigned to AWS resources for specific actions."
+  },
+  {
+    "term": "VNet Peering",
+    "definition": "Enables virtual networks in Azure to communicate privately."
+  },
+  {
+    "term": "Service Mesh",
+    "definition": "Dedicated infrastructure layer for managing service-to-service communication."
+  },
+  {
+    "term": "Cloud Broker",
+    "definition": "Entity that manages use, performance, and delivery of cloud services."
+  },
+  {
+    "term": "Disaster Recovery",
+    "definition": "Strategy to recover services and data after a failure or attack."
+  },
+  {
+    "term": "Object Storage",
+    "definition": "Data storage architecture that manages data as objects instead of files or blocks."
+  },
+  {
+    "term": "Infrastructure as Code",
+    "definition": "Provisioning and managing cloud infrastructure using code-based templates."
+  },
+  {
+    "term": "Cloud Security Posture Management (CSPM)",
+    "definition": "Tools to automate cloud security and compliance across services."
+  },
+  {
+    "term": "Platform as a Service (PaaS)",
+    "definition": "Cloud model that delivers hardware and software tools to users over the internet."
+  },
+  {
+    "term": "Software as a Service (SaaS)",
+    "definition": "Cloud-based applications accessed via web browsers without local installation."
+  },
+  {
+    "term": "Function as a Service (FaaS)",
+    "definition": "Cloud model where you run functions in response to events without managing servers."
+  },
+  {
+    "term": "Content Delivery Network (CDN)",
+    "definition": "Network of servers that deliver content to users with high availability and performance."
+  },
+  {
+    "term": "Edge Computing",
+    "definition": "Processing data near the data source rather than in a centralized cloud."
+  },
+  {
+    "term": "Cloud Gateway",
+    "definition": "Connects on-premises networks with cloud services securely."
+  },
+  {
+    "term": "Virtualization",
+    "definition": "Technology that creates virtual instances of computing resources."
+  },
+  {
+    "term": "Service-Level Agreement (SLA)",
+    "definition": "Formal agreement outlining the expected level of service between provider and customer."
+  },
+  {
+    "term": "Cloud Compliance",
+    "definition": "Ensuring cloud services meet regulatory and policy requirements."
+  },
+  {
+    "term": "Application Load Balancer",
+    "definition": "Distributes incoming application traffic based on content."
+  },
+  {
+    "term": "Network Load Balancer",
+    "definition": "Distributes TCP traffic with ultra-low latencies."
+  },
+  {
+    "term": "Cloud Cost Optimization",
+    "definition": "Strategies to minimize cloud spending while maximizing performance."
+  },
+  {
+    "term": "Container Registry",
+    "definition": "Repository to store and manage container images."
+  },
+  {
+    "term": "CI/CD Pipeline",
+    "definition": "Automated process for continuous integration and continuous deployment of applications."
+  },
+  {
+    "term": "Cloud-native Application",
+    "definition": "Software designed specifically to run in cloud environments, scalable and resilient."
+  },
+  {
+    "term": "Elastic Beanstalk",
+    "definition": "AWS platform to deploy and scale web applications quickly."
+  },
+  {
+    "term": "Cloud Shell",
+    "definition": "Browser-based command-line interface provided by cloud providers for managing resources."
+  },
+  {
+    "term": "OpsWorks",
+    "definition": "Configuration management service by AWS using Chef or Puppet."
+  },
+  {
+    "term": "LightSail",
+    "definition": "Simplified cloud hosting platform by AWS for small-scale projects."
+  },
+  {
+    "term": "Azure DevOps",
+    "definition": "Set of development tools and services for CI/CD and project management by Microsoft."
+  },
+  {
+    "term": "GCP Deployment Manager",
+    "definition": "Infrastructure management service that automates resource deployment in Google Cloud."
+  },
+  {
+    "term": "AWS Snowball",
+    "definition": "Physical data transfer device for moving large amounts of data into AWS."
+  },
+  {
+    "term": "Azure Stack",
+    "definition": "Hybrid cloud platform that extends Azure services to on-premise data centers."
+  },
+  {
+    "term": "Google Cloud Marketplace",
+    "definition": "Platform to find and deploy third-party cloud solutions on Google Cloud."
+  },
+  {
+    "term": "Managed Service",
+    "definition": "Cloud service fully operated and maintained by the provider."
+  },
+  {
+    "term": "Cloud Audit Logs",
+    "definition": "Logging service to track activities and access across cloud environments."
+  },
+  {
+    "term": "Cloud Resource Manager",
+    "definition": "Tool for managing and organizing cloud resources hierarchically."
+  },
+  {
+    "term": "Service Fabric",
+    "definition": "Microsoft platform for building and managing microservices."
+  },
+  {
+    "term": "IAM Policy",
+    "definition": "Defines permissions in a cloud environment using rules and JSON documents."
+  },
+  {
+    "term": "Workload Identity Federation",
+    "definition": "Allows secure authentication between workloads across clouds without service account keys."
+  },
+  {
+    "term": "Confidential Computing",
+    "definition": "Cloud technology to encrypt data while it's being processed."
+  },
+  {
+    "term": "Persistent Disk",
+    "definition": "Durable block storage in GCP for use with VMs."
+  },
+  {
+    "term": "Cloud Endpoints",
+    "definition": "API management gateway on Google Cloud using OpenAPI or gRPC."
+  },
+  {
+    "term": "PrivateLink",
+    "definition": "AWS service to access services securely via private IP addresses."
+  },
+  {
+    "term": "Resource Tags",
+    "definition": "Key-value metadata assigned to cloud resources for organization and billing."
+  },
+  {
+    "term": "Managed Instance Group",
+    "definition": "Group of identical virtual machines managed as a single entity in Google Cloud."
+  },
+  {
+    "term": "Cloud Run Jobs",
+    "definition": "Execute containerized tasks that run to completion in Google Cloud."
+  },
+  {
+    "term": "Instance Metadata",
+    "definition": "Information about a cloud instance available from within the VM."
+  },
+  {
+    "term": "Vertical Scaling",
+    "definition": "Increasing the resources (CPU, RAM) of a single cloud instance."
+  },
+  {
+    "term": "Horizontal Scaling",
+    "definition": "Adding more instances to distribute workloads."
+  },
+  {
+    "term": "Cloud Router",
+    "definition": "Dynamic routing service for managing network routes in cloud environments."
+  },
+  {
+    "term": "Availability Set",
+    "definition": "Logical grouping of VMs in Azure to provide high availability."
+  },
+  {
+    "term": "Startup Script",
+    "definition": "Script that runs automatically when a cloud VM instance starts."
+  },
+  {
+    "term": "Virtual Network Appliance",
+    "definition": "Pre-configured virtual machines for network functions like firewalls or VPNs."
+  },
+  {
+    "term": "CloudBursting",
+    "definition": "Automatically offloading workloads to a public cloud during peak demand."
+  },
+  {
+    "term": "Cloud Tenant",
+    "definition": "A logically isolated section of cloud infrastructure used by a single customer or organization."
+  },
+  {
+    "term": "Bastion Host",
+    "definition": "Special-purpose instance used to securely access private cloud resources."
+  },
+  {
+    "term": "Cross-Origin Resource Sharing (CORS)",
+    "definition": "Security feature that allows or restricts resources requested from another domain."
+  },
+  {
+    "term": "API Throttling",
+    "definition": "Limits the number of API requests to prevent overuse or abuse."
+  },
+  {
+    "term": "Data Egress",
+    "definition": "The transfer of data out of a cloud provider's infrastructure."
+  },
+  {
+    "term": "Data Ingress",
+    "definition": "The transfer of data into a cloud provider’s infrastructure."
+  },
+  {
+    "term": "Dedicated Host",
+    "definition": "Physical servers dedicated to a single customer, isolating them from other tenants."
+  },
+  {
+    "term": "Distributed Denial of Service (DDoS)",
+    "definition": "Cyberattack that disrupts services by overwhelming them with traffic."
+  },
+  {
+    "term": "Ephemeral Storage",
+    "definition": "Temporary storage attached to instances that is deleted when the instance is stopped or terminated."
+  },
+  {
+    "term": "Immutable Infrastructure",
+    "definition": "Deployment method where components are replaced rather than updated."
+  },
+  {
+    "term": "Image Registry",
+    "definition": "Repository that stores and manages container images for deployment."
+  },
+  {
+    "term": "Load Shedding",
+    "definition": "Dropping low-priority traffic when a system is overloaded to maintain performance."
+  },
+  {
+    "term": "Log Aggregation",
+    "definition": "Collecting and centralizing logs from multiple sources for monitoring or analysis."
+  },
+  {
+    "term": "Message Queue",
+    "definition": "Communication mechanism between distributed services that decouples components."
+  },
+  {
+    "term": "Middleware",
+    "definition": "Software that connects different applications or services in a distributed system."
+  },
+  {
+    "term": "Monitoring Agent",
+    "definition": "Software that collects metrics and data from cloud resources for observability."
+  },
+  {
+    "term": "Multi-Tenant Architecture",
+    "definition": "Software architecture where a single instance serves multiple users or tenants."
+  },
+  {
+    "term": "Patch Management",
+    "definition": "Process of managing software updates and security patches in cloud systems."
+  },
+  {
+    "term": "Preemptible VM",
+    "definition": "Low-cost virtual machines that can be shut down by the cloud provider with short notice."
+  },
+  {
+    "term": "Private Cloud",
+    "definition": "Cloud infrastructure operated exclusively for a single organization, on-premises or hosted."
+  },
+  {
+    "term": "Public Cloud",
+    "definition": "Cloud services delivered over the public internet and shared among multiple users."
+  },
+  {
+    "term": "Quota",
+    "definition": "Limit on the amount of cloud resources a user or project can consume."
+  },
+  {
+    "term": "Read Replica",
+    "definition": "Read-only copy of a database used to scale read operations."
+  },
+  {
+    "term": "Rehydration",
+    "definition": "Restoring data from archive or cold storage to active or hot storage."
+  },
+  {
+    "term": "Resource Group",
+    "definition": "Container that holds related resources in Azure for easier management."
+  },
+  {
+    "term": "Root Account",
+    "definition": "Highest-level administrative account in cloud platforms with unrestricted access."
+  },
+  {
+    "term": "Secrets Rotation",
+    "definition": "Automated or manual process of changing credentials or secret values periodically."
+  },
+  {
+    "term": "Serverless Framework",
+    "definition": "Tool for building and deploying serverless applications across providers."
+  },
+  {
+    "term": "Session Affinity",
+    "definition": "Routing technique that ensures requests from a user go to the same server."
+  },
+  {
+    "term": "Service Catalog",
+    "definition": "Curated collection of approved cloud services and resources available for deployment."
+  },
+  {
+    "term": "Service Quotas",
+    "definition": "Defined limits for the number of resources or API calls a user can make."
+  },
+  {
+    "term": "Sharding",
+    "definition": "Database partitioning technique that distributes data across multiple servers."
+  },
+  {
+    "term": "Snapshot",
+    "definition": "Point-in-time backup of storage volumes or instances."
+  },
+  {
+    "term": "Stateful Application",
+    "definition": "Application that maintains persistent data or session state."
+  },
+  {
+    "term": "Stateless Application",
+    "definition": "Application that treats each request as independent with no stored session state."
+  },
+  {
+    "term": "Sticky Sessions",
+    "definition": "Sessions where all requests from a user are directed to the same server."
+  },
+  {
+    "term": "System Image",
+    "definition": "Template that includes an OS and preinstalled software for launching cloud instances."
+  },
+  {
+    "term": "Tagging Policy",
+    "definition": "Rules governing how metadata tags should be applied to cloud resources."
+  },
+  {
+    "term": "Trusted Advisor",
+    "definition": "AWS tool that provides best practice recommendations for security, performance, and cost."
+  },
+   {
+    "term": "Capacity Planning",
+    "definition": "The process of forecasting future cloud resource needs based on current usage trends."
+  },
+  {
+    "term": "Cloud API",
+    "definition": "Application programming interface provided by cloud services to manage and automate operations."
+  },
+  {
+    "term": "Cluster Autoscaler",
+    "definition": "Automatically adjusts the number of nodes in a Kubernetes cluster based on usage."
+  },
+  {
+    "term": "Compliance as Code",
+    "definition": "Automating compliance and regulatory enforcement using code and policies."
+  },
+  {
+    "term": "ConfigMap",
+    "definition": "Kubernetes object used to inject configuration data into containers."
+  },
+  {
+    "term": "Container Orchestration",
+    "definition": "Automated management and scaling of containerized applications."
+  },
+  {
+    "term": "Custom VPC",
+    "definition": "User-defined virtual network configuration in a cloud environment."
+  },
+  {
+    "term": "Data Residency",
+    "definition": "Legal requirement that data must be stored in a specific geographical location."
+  },
+  {
+    "term": "Deployment Slot",
+    "definition": "Staging environments for web apps used to test updates before production release."
+  },
+  {
+    "term": "Egress Filtering",
+    "definition": "Control of outbound traffic from cloud resources to external networks."
+  },
+  {
+    "term": "Encryption Key Rotation",
+    "definition": "Periodically changing encryption keys to enhance security."
+  },
+  {
+    "term": "Environment Variable",
+    "definition": "Configuration value used by software applications during execution."
+  },
+  {
+    "term": "ETL Pipeline",
+    "definition": "Extract, Transform, Load process used to move and process cloud data."
+  },
+  {
+    "term": "Federated Identity",
+    "definition": "Authentication model allowing users to use a single identity across multiple systems."
+  },
+  {
+    "term": "GCP Projects",
+    "definition": "Organizational unit in Google Cloud used to manage and isolate cloud resources."
+  },
+  {
+    "term": "Helm",
+    "definition": "Package manager for Kubernetes that helps in defining, installing, and upgrading applications."
+  },
+  {
+    "term": "Hosted Zone",
+    "definition": "Container for records in a domain managed by cloud DNS services."
+  },
+  {
+    "term": "Ingress Controller",
+    "definition": "Kubernetes component managing external access to services within a cluster."
+  },
+  {
+    "term": "Instance Group",
+    "definition": "A group of virtual machines managed as a single entity for scaling and updates."
+  },
+  {
+    "term": "Kubernetes Dashboard",
+    "definition": "Web-based user interface for managing Kubernetes clusters."
+  },
+  {
+    "term": "Log Retention Policy",
+    "definition": "Defines how long logs are stored before being deleted."
+  },
+  {
+    "term": "Managed Disk",
+    "definition": "Durable, high-performance disk storage managed by the cloud provider."
+  },
+  {
+    "term": "Man-in-the-Middle Protection",
+    "definition": "Security mechanisms to prevent interception and tampering of data in transit."
+  },
+  {
+    "term": "Metadata Server",
+    "definition": "Provides configuration and instance information to virtual machines."
+  },
+  {
+    "term": "Migration Hub",
+    "definition": "Centralized tool to track cloud migration tasks and status."
+  },
+  {
+    "term": "Multi-Region Deployment",
+    "definition": "Distributing cloud applications across multiple geographic regions for redundancy and latency."
+  },
+  {
+    "term": "Namespace",
+    "definition": "Logical grouping of resources within a Kubernetes cluster."
+  },
+  {
+    "term": "Node Pool",
+    "definition": "Group of nodes within a Kubernetes cluster with the same configuration."
+  },
+  {
+    "term": "Observability",
+    "definition": "Capability to monitor, debug, and trace cloud applications and infrastructure."
+  },
+  {
+    "term": "Orphaned Resources",
+    "definition": "Cloud resources that are no longer used but still incur cost."
+  },
+  {
+    "term": "Parameter Store",
+    "definition": "Centralized store for managing configuration data and secrets."
+  },
+  {
+    "term": "Peering Connection",
+    "definition": "Network link between two VPCs for direct communication."
+  },
+  {
+    "term": "Pod",
+    "definition": "Smallest deployable unit in Kubernetes that can contain one or more containers."
+  },
+  {
+    "term": "Policy Enforcement Point",
+    "definition": "Location in a system where access control decisions are enforced."
+  },
+  {
+    "term": "Provisioning",
+    "definition": "Automated process of setting up cloud infrastructure and applications."
+  },
+  {
+    "term": "Recovery Point Objective (RPO)",
+    "definition": "Maximum acceptable amount of data loss measured in time."
+  },
+  {
+    "term": "Recovery Time Objective (RTO)",
+    "definition": "Maximum acceptable time to restore a service after disruption."
+  },
+  {
+    "term": "Resource Throttling",
+    "definition": "Limiting resource usage to avoid overuse or denial of service."
+  },
+  {
+    "term": "Rollback",
+    "definition": "Reverting a cloud application to a previous stable state after a failed update."
+  },
+  {
+    "term": "Rolling Update",
+    "definition": "Gradual update of application instances to ensure high availability."
+  },
+  {
+    "term": "Scalability Testing",
+    "definition": "Testing how a cloud application behaves under varying loads."
+  },
+  {
+    "term": "Secrets Encryption",
+    "definition": "Encrypting stored credentials or sensitive configuration values."
+  },
+  {
+    "term": "Self-Healing",
+    "definition": "Ability of cloud systems to automatically detect and recover from failures."
+  },
+  {
+    "term": "Service Mesh Proxy",
+    "definition": "Sidecar container used in service mesh to manage traffic and enforce policies."
+  },
+  {
+    "term": "Service Principal",
+    "definition": "Identity used by applications or services to access cloud resources."
+  },
+  {
+    "term": "Shadow IT",
+    "definition": "Use of cloud services outside of official IT control or approval."
+  },
+  {
+    "term": "Soft Delete",
+    "definition": "Temporary deletion of data with the ability to restore within a retention period."
+  },
+  {
+    "term": "Startup Probe",
+    "definition": "Kubernetes health check that determines when a container is ready to start."
+  },
+  {
+    "term": "Tenant Isolation",
+    "definition": "Ensuring that multiple tenants in a cloud environment are securely separated."
+  },
+  {
+    "term": "User Data Script",
+    "definition": "Script that runs during instance bootstrapping for initialization tasks."
+  },
+  {
+    "term": "Availability Zone Failure",
+    "definition": "An event that causes one or more cloud data centers in a zone to become unavailable."
+  },
+  {
+    "term": "Billing Alarm",
+    "definition": "Notification set to alert users when spending exceeds a predefined threshold."
+  },
+  {
+    "term": "Burst Capacity",
+    "definition": "Extra compute power temporarily allocated during high-demand situations."
+  },
+  {
+    "term": "Capacity Reservation",
+    "definition": "Reserve cloud resources in advance to ensure availability when needed."
+  },
+  {
+    "term": "Cloud Governance",
+    "definition": "Policies and procedures to control the use of cloud services in an organization."
+  },
+  {
+    "term": "Cloud Lifecycle Management",
+    "definition": "Automation of the creation, monitoring, and deletion of cloud environments."
+  },
+  {
+    "term": "Cloud-native Security",
+    "definition": "Security practices and technologies built into the fabric of cloud-native applications."
+  },
+  {
+    "term": "Cluster IP",
+    "definition": "Internal IP address used for communication within a Kubernetes cluster."
+  },
+  {
+    "term": "Compliance Reporting",
+    "definition": "Generating reports to demonstrate adherence to regulatory standards in cloud."
+  },
+  {
+    "term": "Configuration Drift",
+    "definition": "Deviation between actual cloud infrastructure and intended configuration over time."
+  },
+  {
+    "term": "Data Durability",
+    "definition": "Measure of data reliability and long-term retention in cloud storage."
+  },
+  {
+    "term": "Data Sovereignty",
+    "definition": "Concept that data is subject to the laws of the country in which it is stored."
+  },
+  {
+    "term": "Default VPC",
+    "definition": "Automatically created VPC that comes with every cloud account for quick setup."
+  },
+  {
+    "term": "Deployment Manifest",
+    "definition": "File that defines cloud or Kubernetes deployments, typically in YAML or JSON."
+  },
+  {
+    "term": "Dynamic Scaling",
+    "definition": "Automatic adjustment of compute resources based on real-time workload."
+  },
+  {
+    "term": "Elastic IP",
+    "definition": "Static public IP address in AWS that can be associated with instances."
+  },
+  {
+    "term": "Endpoint Service",
+    "definition": "Service that allows access to cloud applications via private endpoints."
+  },
+  {
+    "term": "Failover",
+    "definition": "Automatic switching to a standby system in case of failure."
+  },
+  {
+    "term": "Feature Flag",
+    "definition": "Technique for enabling or disabling features in applications without redeployment."
+  },
+  {
+    "term": "Health Check",
+    "definition": "Periodic check to determine if a cloud service or resource is operating normally."
+  },
+  {
+    "term": "Hybrid Identity",
+    "definition": "Combines on-premises and cloud identity systems for unified access."
+  },
+  {
+    "term": "Immutable Deployment",
+    "definition": "Application deployment model where old versions are replaced entirely with new ones."
+  },
+  {
+    "term": "Infrastructure Drift Detection",
+    "definition": "Tools or processes that detect mismatches between IaC code and real cloud infrastructure."
+  },
+  {
+    "term": "Interconnect Attachment",
+    "definition": "GCP component used for establishing hybrid connections between on-prem and cloud."
+  },
+  {
+    "term": "Kubernetes Node",
+    "definition": "A physical or virtual machine that runs containerized applications in Kubernetes."
+  },
+  {
+    "term": "Latency Monitoring",
+    "definition": "Tracking the time it takes for data to travel between systems or endpoints."
+  },
+  {
+    "term": "Load Balancer Rule",
+    "definition": "Definition that maps traffic to backend services in a cloud load balancer."
+  },
+  {
+    "term": "Maintenance Window",
+    "definition": "Scheduled time for applying updates or performing maintenance on cloud systems."
+  },
+  {
+    "term": "Managed Certificate",
+    "definition": "Cloud-provided SSL/TLS certificate for encrypting traffic."
+  },
+  {
+    "term": "Managed Identity",
+    "definition": "Automatically managed identity used by cloud services to access other services securely."
+  },
+  {
+    "term": "Metrics Explorer",
+    "definition": "Tool to visualize and analyze cloud performance and usage metrics."
+  },
+  {
+    "term": "Mount Target",
+    "definition": "Interface for connecting file systems like EFS to VPCs."
+  },
+  {
+    "term": "Namespace Isolation",
+    "definition": "Technique for segmenting cloud or Kubernetes resources for security or organization."
+  },
+  {
+    "term": "Network Policy",
+    "definition": "Set of rules controlling traffic flow between pods in Kubernetes."
+  },
+  {
+    "term": "NoSQL Database",
+    "definition": "Non-relational database designed for unstructured or semi-structured data."
+  },
+  {
+    "term": "OAuth Token",
+    "definition": "Credential that grants temporary access to cloud APIs."
+  },
+  {
+    "term": "On-Demand Instance",
+    "definition": "Cloud VM billed by the hour/second with no upfront commitment."
+  },
+  {
+    "term": "Operations Management",
+    "definition": "Monitoring and administration of cloud applications and infrastructure."
+  },
+  {
+    "term": "Organization Policy",
+    "definition": "Constraints set across cloud resources to enforce governance and compliance."
+  },
+  {
+    "term": "Persistent Volume",
+    "definition": "Storage resource in Kubernetes that retains data across pod restarts."
+  },
+  {
+    "term": "Policy Binding",
+    "definition": "Assignment of roles and permissions to users or resources in cloud IAM."
+  },
+  {
+    "term": "Private IP",
+    "definition": "Internal IP address used within a cloud network, not accessible from the public internet."
+  },
+  {
+    "term": "Provisioning Script",
+    "definition": "Script used to automate the setup of cloud resources."
+  },
+  {
+    "term": "Public IP",
+    "definition": "IP address accessible from the internet, assigned to cloud instances or services."
+  },
+  {
+    "term": "Replica Set",
+    "definition": "Kubernetes object ensuring a specified number of pod replicas are running."
+  },
+  {
+    "term": "Reserved IP",
+    "definition": "Static IP address reserved for future use or persistent cloud resources."
+  },
+  {
+    "term": "Resource Hierarchy",
+    "definition": "Structure organizing cloud resources by projects, folders, and organizations."
+  },
+  {
+    "term": "Rolling Rollout",
+    "definition": "Gradual deployment of a new application version to reduce risk."
+  },
+  {
+    "term": "Secret Mount",
+    "definition": "Mounting sensitive values like passwords or tokens into containers securely."
+  },
+  {
+    "term": "Service Discovery",
+    "definition": "Mechanism for automatically identifying and connecting services in cloud or Kubernetes."
+  },
+  {
+    "term": "StatefulSet",
+    "definition": "Kubernetes controller for managing stateful applications with persistent identity and storage."
+  },
+  {
+    "term": "Access Analyzer",
+    "definition": "AWS service that helps identify unintended public or cross-account access to resources."
+  },
+  {
+    "term": "Access Key",
+    "definition": "A set of credentials used to authenticate API requests in cloud environments."
+  },
+  {
+    "term": "Account Alias",
+    "definition": "Custom name assigned to a cloud account for easier identification."
+  },
+  {
+    "term": "Activity Log",
+    "definition": "Log that records operations performed on cloud resources for auditing."
+  },
+  {
+    "term": "API Gateway Integration",
+    "definition": "Linking API Gateway with backend services like Lambda or HTTP endpoints."
+  },
+  {
+    "term": "Audit Trail",
+    "definition": "Chronological record of system activities used for security and compliance."
+  },
+  {
+    "term": "Availability Monitoring",
+    "definition": "Tracking service uptime and detecting outages or latency issues."
+  },
+  {
+    "term": "Azure Logic Apps",
+    "definition": "Service for automating workflows and integrating cloud apps and data."
+  },
+  {
+    "term": "Backend Pool",
+    "definition": "Group of backend resources used by a load balancer to serve traffic."
+  },
+  {
+    "term": "Bare Metal Instance",
+    "definition": "Cloud instance that runs directly on physical hardware without virtualization."
+  },
+  {
+    "term": "Cloud SDK",
+    "definition": "Software development kit for managing and interacting with cloud resources."
+  },
+  {
+    "term": "Cloud-based IDE",
+    "definition": "Integrated development environment that runs in the cloud."
+  },
+  {
+    "term": "CloudTrail Insights",
+    "definition": "Feature that identifies unusual activity in AWS account behavior."
+  },
+  {
+    "term": "Command Line Interface (CLI)",
+    "definition": "Tool that allows users to interact with cloud services through commands."
+  },
+  {
+    "term": "Container Service",
+    "definition": "Managed service for running containerized applications in the cloud."
+  },
+  {
+    "term": "Cost Allocation Tag",
+    "definition": "Tag used to track and report cloud usage and cost by resource or team."
+  },
+  {
+    "term": "Custom Domain Mapping",
+    "definition": "Binding a user-owned domain name to a cloud-hosted application or API."
+  },
+  {
+    "term": "Data Sharding",
+    "definition": "Splitting a database into smaller parts (shards) to improve scalability."
+  },
+  {
+    "term": "Dedicated Interconnect",
+    "definition": "Private network connection from your infrastructure to the cloud."
+  },
+  {
+    "term": "Deployment Pipeline",
+    "definition": "Series of steps used to automate the release of software updates."
+  },
+  {
+    "term": "Disk IOPS",
+    "definition": "Input/output operations per second, a performance metric for storage volumes."
+  },
+  {
+    "term": "Distributed Storage",
+    "definition": "Storage system that distributes data across multiple physical locations."
+  },
+  {
+    "term": "DNS Failover",
+    "definition": "Automatically rerouting traffic to a backup resource if the primary fails."
+  },
+  {
+    "term": "Elasticity Group",
+    "definition": "Set of cloud resources that scale automatically in response to demand."
+  },
+  {
+    "term": "EventBridge",
+    "definition": "AWS event bus for connecting application data with services."
+  },
+  {
+    "term": "Execution Role",
+    "definition": "IAM role that grants permissions to run or execute a specific cloud function or service."
+  },
+  {
+    "term": "File Gateway",
+    "definition": "Hybrid storage service that presents cloud storage as a local file system."
+  },
+  {
+    "term": "Firewall Rule",
+    "definition": "Rule that defines allowed or blocked network traffic in cloud environments."
+  },
+  {
+    "term": "Fleet Management",
+    "definition": "Managing a group of compute resources for updates, patches, and scaling."
+  },
+  {
+    "term": "Global Accelerator",
+    "definition": "AWS service that improves availability and performance using global edge locations."
+  },
+  {
+    "term": "Global Load Balancer",
+    "definition": "Distributes traffic across regions for improved fault tolerance and latency."
+  },
+  {
+    "term": "GraphQL API",
+    "definition": "Flexible and efficient query language for APIs supported by cloud platforms."
+  },
+  {
+    "term": "Instance Template",
+    "definition": "Configuration used to create VM instances with predefined properties."
+  },
+  {
+    "term": "Inter-Region Replication",
+    "definition": "Copying data across cloud regions for redundancy and disaster recovery."
+  },
+  {
+    "term": "Job Scheduler",
+    "definition": "Service that automates the execution of scheduled tasks in the cloud."
+  },
+  {
+    "term": "Key Rotation Policy",
+    "definition": "Rule that defines how frequently encryption keys are rotated."
+  },
+  {
+    "term": "Lifecycle Hook",
+    "definition": "Custom action triggered during auto scaling instance launch or termination."
+  },
+  {
+    "term": "Load Testing",
+    "definition": "Testing cloud applications under simulated heavy usage to evaluate performance."
+  },
+  {
+    "term": "Log Sink",
+    "definition": "Destination where logs are exported for analysis or storage."
+  },
+  {
+    "term": "Managed Kubernetes",
+    "definition": "Cloud-hosted service that automates Kubernetes cluster management."
+  },
+  {
+    "term": "Managed Message Broker",
+    "definition": "Cloud-managed pub/sub or message queueing service (e.g., AWS MQ)."
+  },
+  {
+    "term": "Marketplace Image",
+    "definition": "Pre-built software image from a cloud provider's marketplace used to launch instances."
+  },
+  {
+    "term": "Metrics Collection",
+    "definition": "Gathering performance and usage data from cloud services for monitoring."
+  },
+  {
+    "term": "Monitoring Dashboard",
+    "definition": "Visual interface for real-time cloud performance and health metrics."
+  },
+  {
+    "term": "Multi-AZ Deployment",
+    "definition": "Deploying resources across availability zones for high availability."
+  },
+  {
+    "term": "Network Interface",
+    "definition": "Virtual network card attached to a VM for network communication."
+  },
+  {
+    "term": "Patch Orchestration",
+    "definition": "Coordinating the update of software patches across cloud systems."
+  },
+  {
+    "term": "Predictive Autoscaling",
+    "definition": "Scaling cloud resources based on predicted future usage trends."
+  },
+  {
+    "term": "Resource Optimization",
+    "definition": "Improving cloud resource usage to reduce cost and increase efficiency."
+  },
+  {
+    "term": "Root Volume",
+    "definition": "Primary disk of a virtual machine where the operating system is installed."
+  },
+  {
+    "term": "Runtime Environment",
+    "definition": "Software stack in which applications run in the cloud (e.g., Node.js, Python)."
+  },
+  {
+    "term": "Access Policy",
+    "definition": "A set of rules that define permissions for users or services in cloud environments."
+  },
+  {
+    "term": "App Runner",
+    "definition": "AWS service to quickly deploy containerized web applications and APIs."
+  },
+  {
+    "term": "Archive Storage",
+    "definition": "Low-cost cloud storage for data that is rarely accessed."
+  },
+  {
+    "term": "Audit Log",
+    "definition": "Chronological record that logs changes to cloud systems and resources."
+  },
+  {
+    "term": "Autoscaling Group",
+    "definition": "A collection of EC2 instances that scale automatically based on demand."
+  },
+  {
+    "term": "Azure DevTest Labs",
+    "definition": "Service to quickly create environments for testing and development on Azure."
+  },
+  {
+    "term": "Blob",
+    "definition": "Binary large object used to store unstructured data in cloud storage."
+  },
+  {
+    "term": "Build Pipeline",
+    "definition": "Automated process that compiles, tests, and packages code for deployment."
+  },
+  {
+    "term": "Cloud Foundry",
+    "definition": "Open-source platform-as-a-service for deploying and managing applications."
+  },
+  {
+    "term": "CloudHub",
+    "definition": "MuleSoft’s cloud-based integration platform for deploying APIs and integrations."
+  },
+  {
+    "term": "Cloud Policy",
+    "definition": "Rules that enforce governance, security, and compliance across cloud resources."
+  },
+  {
+    "term": "Cold Start",
+    "definition": "Delay experienced when a serverless function initializes for the first time."
+  },
+  {
+    "term": "Compute Engine",
+    "definition": "Google Cloud’s service for running virtual machines."
+  },
+  {
+    "term": "Configuration Management",
+    "definition": "Maintaining system settings in a consistent, secure, and compliant state."
+  },
+  {
+    "term": "Container Registry",
+    "definition": "Storage for container images, often integrated with deployment pipelines."
+  },
+  {
+    "term": "Content Delivery Network (CDN)",
+    "definition": "A network of servers used to deliver content quickly based on user location."
+  },
+  {
+    "term": "Cross-Region Replication",
+    "definition": "Automatically replicating data between different geographic regions."
+  },
+  {
+    "term": "Customer-Managed Key (CMK)",
+    "definition": "Encryption key created and managed by users in a cloud key management service."
+  },
+  {
+    "term": "Custom Metrics",
+    "definition": "User-defined performance indicators collected from applications or services."
+  },
+  {
+    "term": "Data Lifecycle Policy",
+    "definition": "Rules that automatically transition or delete cloud data based on age or usage."
+  },
+  {
+    "term": "Data Pipeline",
+    "definition": "A sequence of data processing steps for movement, transformation, and storage."
+  },
+  {
+    "term": "Data Retention Policy",
+    "definition": "Defines how long data is stored and when it is deleted in cloud systems."
+  },
+  {
+    "term": "Deployment Target",
+    "definition": "The destination environment for deploying cloud applications."
+  },
+  {
+    "term": "Designated Backup Region",
+    "definition": "A specific secondary region used for disaster recovery."
+  },
+  {
+    "term": "DevSecOps",
+    "definition": "Practice of integrating security into every phase of the DevOps lifecycle."
+  },
+  {
+    "term": "Elastic Load Balancing (ELB)",
+    "definition": "AWS service that distributes traffic across multiple targets automatically."
+  },
+  {
+    "term": "Environment Stack",
+    "definition": "A complete group of resources configured for a specific application environment."
+  },
+  {
+    "term": "Ephemeral Instance",
+    "definition": "A temporary virtual machine that is not preserved after termination."
+  },
+  {
+    "term": "External Load Balancer",
+    "definition": "Distributes internet traffic to services inside a cloud VPC."
+  },
+  {
+    "term": "Firewall Appliance",
+    "definition": "Virtual network security appliance used to filter traffic in cloud infrastructure."
+  },
+  {
+    "term": "Function App",
+    "definition": "Azure container for hosting serverless functions with shared settings."
+  },
+  {
+    "term": "Global VPC Peering",
+    "definition": "Connecting VPCs across different regions for global communication."
+  },
+  {
+    "term": "HashiCorp Vault",
+    "definition": "Tool for managing secrets and protecting sensitive cloud data."
+  },
+  {
+    "term": "High Availability Architecture",
+    "definition": "Design pattern that minimizes downtime and ensures continuous operation."
+  },
+  {
+    "term": "Host Maintenance Event",
+    "definition": "Planned updates or changes to cloud hardware affecting hosted instances."
+  },
+  {
+    "term": "Hybrid Networking",
+    "definition": "Integration of on-premises networks with cloud-based virtual networks."
+  },
+  {
+    "term": "Identity Broker",
+    "definition": "Service that connects users from multiple identity providers to cloud resources."
+  },
+  {
+    "term": "Image Builder",
+    "definition": "Tool for automating the creation of virtual machine or container images."
+  },
+  {
+    "term": "Ingress Rule",
+    "definition": "Defines allowed incoming traffic for cloud firewalls or Kubernetes services."
+  },
+  {
+    "term": "Integration Testing",
+    "definition": "Testing interactions between different components of a cloud system."
+  },
+  {
+    "term": "Instance Group Manager",
+    "definition": "Google Cloud component that manages identical VMs as a group."
+  },
+  {
+    "term": "IoT Core",
+    "definition": "Cloud service for connecting, managing, and securing IoT devices."
+  },
+  {
+    "term": "Job Queue",
+    "definition": "List of tasks waiting to be processed by background cloud services."
+  },
+  {
+    "term": "JSON Web Token (JWT)",
+    "definition": "Compact token format used for securely transmitting claims between systems."
+  },
+  {
+    "term": "Kubernetes CronJob",
+    "definition": "Schedules jobs to run periodically in a Kubernetes environment."
+  },
+  {
+    "term": "Liveness Probe",
+    "definition": "Kubernetes check that determines if a container is still running properly."
+  },
+  {
+    "term": "Log-Based Metric",
+    "definition": "Metric derived from log entries to trigger alerts or analyze behavior."
+  },
+  {
+    "term": "Node Affinity",
+    "definition": "Kubernetes feature that schedules pods on specific nodes based on rules or labels."
+  },
+  {
+    "term": "Throttling",
+    "definition": "Limiting the number of requests or operations a user or service can perform to prevent overload."
+  },
+  {
+    "term": "Account Federation",
+    "definition": "Linking an external identity provider to access cloud resources without local credentials."
+  },
+  {
+    "term": "Application Gateway",
+    "definition": "Web traffic load balancer that enables routing based on HTTP attributes."
+  },
+  {
+    "term": "Application Insights",
+    "definition": "Azure service for monitoring application performance and usage."
+  },
+  {
+    "term": "ARM Template",
+    "definition": "Azure Resource Manager JSON template used to define and deploy cloud resources."
+  },
+  {
+    "term": "Audit Policy",
+    "definition": "Defines what events are logged for compliance and security auditing."
+  },
+  {
+    "term": "Auto Healing",
+    "definition": "Automatically restarting unhealthy cloud instances or services."
+  },
+  {
+    "term": "AWS Backup",
+    "definition": "Centralized backup service for AWS services and on-prem workloads."
+  },
+  {
+    "term": "Azure Monitor",
+    "definition": "Comprehensive monitoring service for collecting metrics and logs in Azure."
+  },
+  {
+    "term": "Blue/Green Deployment",
+    "definition": "Releasing new application versions by switching traffic between environments."
+  },
+  {
+    "term": "Cloud Build",
+    "definition": "GCP CI/CD service to build and test code in the cloud."
+  },
+  {
+    "term": "Cloud Composer",
+    "definition": "GCP’s managed Apache Airflow service for workflow orchestration."
+  },
+  {
+    "term": "Cloud Pak",
+    "definition": "IBM pre-integrated containers and software for hybrid cloud solutions."
+  },
+  {
+    "term": "Cloud Storage Lifecycle",
+    "definition": "Rule-based management of object storage to transition or delete data automatically."
+  },
+  {
+    "term": "Cloud TCO Calculator",
+    "definition": "Tool to estimate total cost of ownership when migrating to the cloud."
+  },
+  {
+    "term": "Compliance Certification",
+    "definition": "Third-party verification of cloud services against regulatory standards like SOC or ISO."
+  },
+  {
+    "term": "Compute Quota",
+    "definition": "Limit placed on cloud compute resources per account or region."
+  },
+  {
+    "term": "Container Insights",
+    "definition": "Monitoring service for container workloads and performance metrics."
+  },
+  {
+    "term": "Custom Role",
+    "definition": "Manually defined IAM role with specific permissions."
+  },
+  {
+    "term": "Data Egress",
+    "definition": "Transfer of data from the cloud to an external location."
+  },
+  {
+    "term": "Data Lake",
+    "definition": "Centralized repository for storing structured and unstructured data at scale."
+  },
+  {
+    "term": "Dedicated Host",
+    "definition": "Physical server fully dedicated to one customer’s virtual machines."
+  },
+  {
+    "term": "Deployment Slot Swapping",
+    "definition": "Azure feature that switches traffic between deployment environments."
+  },
+  {
+    "term": "Dev/Test Subscription",
+    "definition": "Specialized cloud subscription for development and testing with reduced costs."
+  },
+  {
+    "term": "Distributed Tracing",
+    "definition": "Tracking requests across services in a distributed system for debugging and performance."
+  },
+  {
+    "term": "Elastic Beanstalk",
+    "definition": "AWS platform-as-a-service for deploying web applications and services."
+  },
+  {
+    "term": "Endpoint Protection",
+    "definition": "Security measures for devices connected to the cloud or network."
+  },
+  {
+    "term": "Ephemeral Storage",
+    "definition": "Temporary storage that is lost when the instance is stopped or terminated."
+  },
+  {
+    "term": "Event-Driven Architecture",
+    "definition": "System design where components communicate through events instead of direct calls."
+  },
+  {
+    "term": "External DNS",
+    "definition": "Kubernetes component that automatically manages DNS records for services."
+  },
+  {
+    "term": "Failback",
+    "definition": "Restoring operations from a failover state to the original system."
+  },
+  {
+    "term": "Firewall-as-a-Service (FWaaS)",
+    "definition": "Cloud-based firewall solution that controls and inspects traffic without on-prem hardware."
+  },
+  {
+    "term": "GCP Marketplace",
+    "definition": "Online store for deploying preconfigured software on Google Cloud."
+  },
+  {
+    "term": "Granular Permissions",
+    "definition": "Fine-tuned access controls for cloud resources based on roles and actions."
+  },
+  {
+    "term": "Hybrid Cloud",
+    "definition": "Integration of private and public clouds to allow data and application sharing."
+  },
+  {
+    "term": "Instance Metadata",
+    "definition": "Data provided by cloud services to VMs about themselves and their configuration."
+  },
+  {
+    "term": "Internal Load Balancer",
+    "definition": "Load balancer that distributes traffic only within a private cloud network."
+  },
+  {
+    "term": "Inversion of Control (IoC)",
+    "definition": "Programming principle used in cloud frameworks for dependency injection."
+  },
+  {
+    "term": "Kubeconfig",
+    "definition": "Configuration file used by kubectl to access Kubernetes clusters."
+  },
+  {
+    "term": "Load Balancer Health Probe",
+    "definition": "Probe used to check the availability of backend pool members."
+  },
+  {
+    "term": "Managed Identity Federation",
+    "definition": "Linking cloud-managed identities with external identity providers securely."
+  },
+  {
+    "term": "Multi-Tenancy",
+    "definition": "Architecture where multiple customers share the same cloud infrastructure securely."
+  },
+  {
+    "term": "NoSQL",
+    "definition": "Non-relational database that supports flexible, scalable data storage."
+  },
+  {
+    "term": "Orchestration Layer",
+    "definition": "Layer responsible for managing workflows and service dependencies."
+  },
+  {
+    "term": "Patch Management",
+    "definition": "Process of applying security and performance updates to cloud systems."
+  },
+  {
+    "term": "Preemptible VM",
+    "definition": "Low-cost, short-lived virtual machine that may be terminated by the provider at any time."
+  },
+  {
+    "term": "Rate Limiting",
+    "definition": "Restricting the number of requests a client can make to an API in a given time."
+  },
+  {
+    "term": "Root Access",
+    "definition": "Full administrative privileges on a cloud-hosted system or VM."
+  },
+  {
+    "term": "Runbook Automation",
+    "definition": "Automating operational procedures and tasks in cloud environments."
+  },
+  {
+    "term": "Scalable Architecture",
+    "definition": "System design that grows or shrinks resources based on demand."
+  },
+   {
+    "term": "Access Token",
+    "definition": "A credential used to access protected cloud APIs and services."
+  },
+  {
+    "term": "Affinity Group",
+    "definition": "Logical grouping of resources to improve performance or manage workloads together."
+  },
+  {
+    "term": "Agent Pool",
+    "definition": "A set of nodes in a Kubernetes cluster managed as a unit."
+  },
+  {
+    "term": "Alert Policy",
+    "definition": "Rule that triggers notifications based on monitored cloud metrics or logs."
+  },
+  {
+    "term": "App Mesh",
+    "definition": "AWS service mesh that controls service-to-service communication."
+  },
+  {
+    "term": "Application Load Balancer",
+    "definition": "Layer 7 load balancer used for routing traffic based on HTTP content."
+  },
+  {
+    "term": "Azure Arc",
+    "definition": "Extends Azure management capabilities to on-premises and multi-cloud resources."
+  },
+  {
+    "term": "Azure CLI",
+    "definition": "Command-line tool for managing Azure resources."
+  },
+  {
+    "term": "Backup Vault",
+    "definition": "Secure storage for cloud backup copies and snapshots."
+  },
+  {
+    "term": "Billing Dashboard",
+    "definition": "Cloud console view showing cost, usage, and spending trends."
+  },
+  {
+    "term": "Cloud Endpoint",
+    "definition": "Entry point for interacting with cloud services, APIs, or resources."
+  },
+  {
+    "term": "Cloud NAT Gateway",
+    "definition": "Managed network address translation service for private instances to access the internet."
+  },
+  {
+    "term": "Cloud Shell",
+    "definition": "Browser-based terminal for managing cloud resources using CLI tools."
+  },
+  {
+    "term": "CloudFormation Stack",
+    "definition": "A set of AWS resources created and managed as a unit via a template."
+  },
+  {
+    "term": "CloudFront",
+    "definition": "AWS content delivery network (CDN) for low-latency content distribution."
+  },
+  {
+    "term": "CloudMap",
+    "definition": "AWS service for service discovery and DNS-based service naming."
+  },
+  {
+    "term": "Compliance Score",
+    "definition": "Quantitative measure of how closely cloud resources follow security/compliance rules."
+  },
+  {
+    "term": "Connection Draining",
+    "definition": "Graceful shutdown of instances during termination to prevent traffic loss."
+  },
+  {
+    "term": "Container Orchestration",
+    "definition": "Automated management of container lifecycle and workloads across clusters."
+  },
+  {
+    "term": "Cost Explorer",
+    "definition": "AWS tool to visualize and analyze cloud cost data over time."
+  },
+  {
+    "term": "Custom Domain",
+    "definition": "A user-owned domain mapped to a cloud service or hosted application."
+  },
+  {
+    "term": "Data Analytics Pipeline",
+    "definition": "Set of processes and tools that collect, process, and analyze cloud data."
+  },
+  {
+    "term": "Data Residency",
+    "definition": "Requirement that data be stored in a specific geographic location or region."
+  },
+  {
+    "term": "Dead Letter Queue (DLQ)",
+    "definition": "Queue used to hold messages that failed processing in a cloud messaging system."
+  },
+  {
+    "term": "Deployment Group",
+    "definition": "Logical grouping of cloud instances for coordinated deployment operations."
+  },
+  {
+    "term": "Disk Snapshot",
+    "definition": "Point-in-time copy of a storage volume for backup or cloning."
+  },
+  {
+    "term": "DNS Zone",
+    "definition": "Segment of the DNS namespace managed by a specific provider or service."
+  },
+  {
+    "term": "Elastic IP Address",
+    "definition": "Static IPv4 address in AWS for dynamic cloud infrastructure use."
+  },
+  {
+    "term": "Event Source Mapping",
+    "definition": "AWS Lambda feature that connects event sources (e.g., SQS, Kinesis) to functions."
+  },
+  {
+    "term": "Execution Log",
+    "definition": "Detailed record of steps taken by cloud workflows or functions during runtime."
+  },
+  {
+    "term": "Firewall Rule Set",
+    "definition": "Group of security rules applied to control network access."
+  },
+  {
+    "term": "GCP Projects",
+    "definition": "Organizational container for cloud resources and permissions in Google Cloud."
+  },
+  {
+    "term": "IAM Policy",
+    "definition": "JSON document defining permissions and access rules in cloud IAM."
+  },
+  {
+    "term": "Inbound Rule",
+    "definition": "Security group or firewall rule that controls incoming traffic to a resource."
+  },
+  {
+    "term": "Infrastructure Blueprint",
+    "definition": "Template that defines the design and structure of a cloud environment."
+  },
+  {
+    "term": "Instance Group",
+    "definition": "Group of identical cloud virtual machines managed as a single unit."
+  },
+  {
+    "term": "IoT Gateway",
+    "definition": "Middleware connecting edge IoT devices to the cloud."
+  },
+  {
+    "term": "Job Definition",
+    "definition": "Cloud specification that defines parameters for batch or scheduled jobs."
+  },
+  {
+    "term": "KMS Key Policy",
+    "definition": "IAM-like policy that defines who can use or manage cloud encryption keys."
+  },
+  {
+    "term": "Label",
+    "definition": "Key-value metadata used to organize and filter cloud resources."
+  },
+  {
+    "term": "Lifecycle State",
+    "definition": "Status of a cloud resource (e.g., running, stopped, terminated)."
+  },
+  {
+    "term": "Managed Instance Group",
+    "definition": "GCP resource for managing identical instances with autoscaling and rolling updates."
+  },
+  {
+    "term": "Memory-Optimized Instance",
+    "definition": "Cloud VM type designed for memory-intensive workloads."
+  },
+  {
+    "term": "Message Broker",
+    "definition": "Middleware that routes messages between distributed cloud services."
+  },
+  {
+    "term": "Monitoring Agent",
+    "definition": "Installed tool that collects resource performance metrics and sends to monitoring services."
+  },
+  {
+    "term": "Multi-Region Deployment",
+    "definition": "Deploying resources across multiple cloud regions for redundancy or latency reduction."
+  },
+  {
+    "term": "NAT Instance",
+    "definition": "Instance that performs network address translation for private cloud resources."
+  },
+  {
+    "term": "Observability",
+    "definition": "Ability to understand internal system states based on external outputs like logs and metrics."
+  },
+  {
+    "term": "Orphaned Resource",
+    "definition": "Cloud resource that remains active but is no longer associated with any application or system."
+  },
+  {
+    "term": "Outbound Rule",
+    "definition": "Firewall or security group rule controlling outgoing network traffic."
+  },
+  {
+    "term": "Account ID",
+    "definition": "A unique identifier assigned to a cloud account."
+  },
+  {
+    "term": "App Service Plan",
+    "definition": "Azure pricing tier that determines performance and features of web apps."
+  },
+  {
+    "term": "Application Security Group",
+    "definition": "Azure feature to group VMs and apply network security rules collectively."
+  },
+  {
+    "term": "Artifact Registry",
+    "definition": "GCP-managed storage for container images, packages, and artifacts."
+  },
+  {
+    "term": "Audit Trail Log",
+    "definition": "Log detailing access and modification events for cloud compliance."
+  },
+  {
+    "term": "Auto-Tiering",
+    "definition": "Automatic movement of data between storage classes based on access patterns."
+  },
+  {
+    "term": "Azure Data Factory",
+    "definition": "Cloud-based data integration service for building data pipelines."
+  },
+  {
+    "term": "Azure Lighthouse",
+    "definition": "Delegated resource management across multiple Azure tenants."
+  },
+  {
+    "term": "Backup Policy",
+    "definition": "A set of rules that define how and when cloud data backups are created."
+  },
+  {
+    "term": "Bastion Host",
+    "definition": "A secure server used to access private cloud resources via SSH or RDP."
+  },
+  {
+    "term": "Blob Lifecycle Management",
+    "definition": "Automated tiering, archiving, or deletion of blobs based on rules."
+  },
+  {
+    "term": "Bridge Network",
+    "definition": "Virtual network in containerized environments allowing inter-container communication."
+  },
+  {
+    "term": "Capacity Reservation",
+    "definition": "Reserving cloud compute resources in advance to ensure availability."
+  },
+  {
+    "term": "Cloud Adoption Framework",
+    "definition": "Guidance for planning and implementing a cloud migration strategy."
+  },
+  {
+    "term": "Cloud App Security",
+    "definition": "SaaS-based security tool for discovering and controlling app usage."
+  },
+  {
+    "term": "Cloud Event Bus",
+    "definition": "System for routing events between cloud services and applications."
+  },
+  {
+    "term": "Cloud Identity",
+    "definition": "Google's identity management service for access control across GCP services."
+  },
+  {
+    "term": "Cloud Service Provider (CSP)",
+    "definition": "Company offering infrastructure, platforms, or software hosted in the cloud."
+  },
+  {
+    "term": "Cloud Strategy",
+    "definition": "A long-term plan to adopt, manage, and optimize cloud technologies."
+  },
+  {
+    "term": "Cloud Volumes",
+    "definition": "Scalable storage volumes used by VMs or containers in the cloud."
+  },
+  {
+    "term": "Command Execution Role",
+    "definition": "IAM role enabling automation services to execute scripts or commands."
+  },
+  {
+    "term": "Compliance Manager",
+    "definition": "Tool for assessing and tracking regulatory compliance in the cloud."
+  },
+  {
+    "term": "Conditional Access",
+    "definition": "Policy that grants or denies access based on conditions like location or device."
+  },
+  {
+    "term": "Configuration Drift",
+    "definition": "When a system's configuration deviates from its defined desired state."
+  },
+  {
+    "term": "Container Security Context",
+    "definition": "Kubernetes settings that define privilege and access controls for containers."
+  },
+  {
+    "term": "Control Plane",
+    "definition": "Part of the system that manages the configuration and operation of workloads."
+  },
+  {
+    "term": "Core Service",
+    "definition": "Fundamental services in cloud computing like compute, storage, and networking."
+  },
+  {
+    "term": "Data Catalog",
+    "definition": "Centralized metadata repository for discovering and managing cloud datasets."
+  },
+  {
+    "term": "Data Ingestion",
+    "definition": "Process of collecting data from various sources into cloud systems."
+  },
+  {
+    "term": "Data Loss Prevention (DLP)",
+    "definition": "Tools and policies to detect and prevent unauthorized data exposure."
+  },
+  {
+    "term": "Data Sovereignty",
+    "definition": "Legal requirement for data to reside in a specific geographic location."
+  },
+  {
+    "term": "Dedicated Cluster",
+    "definition": "Exclusive group of resources allocated to a single customer or workload."
+  },
+  {
+    "term": "Deployment Automation",
+    "definition": "The use of tools/scripts to release applications and infrastructure changes automatically."
+  },
+  {
+    "term": "Directory Sync",
+    "definition": "Synchronization of user identities between on-premises and cloud directories."
+  },
+  {
+    "term": "Disaster Recovery as a Service (DRaaS)",
+    "definition": "Cloud-based backup and failover service for business continuity."
+  },
+  {
+    "term": "Distributed Cache",
+    "definition": "A caching solution that spans across multiple servers or nodes."
+  },
+  {
+    "term": "DNS Propagation",
+    "definition": "The time it takes for DNS changes to update across the internet."
+  },
+  {
+    "term": "Edge Function",
+    "definition": "Serverless function deployed at edge locations to reduce latency."
+  },
+  {
+    "term": "Elastic File System (EFS)",
+    "definition": "AWS scalable file storage system for EC2 instances."
+  },
+  {
+    "term": "Encryption Key Rotation",
+    "definition": "Regular update of encryption keys to maintain security."
+  },
+  {
+    "term": "Environment Variable",
+    "definition": "Key-value pairs used to pass configuration data to cloud services or apps."
+  },
+  {
+    "term": "Ephemeral Key",
+    "definition": "Temporary cryptographic key used for a single session or transaction."
+  },
+  {
+    "term": "ETL Pipeline",
+    "definition": "Extract, Transform, Load process used to prepare cloud data for analysis."
+  },
+  {
+    "term": "Failover Cluster",
+    "definition": "Group of systems that automatically take over when one fails."
+  },
+  {
+    "term": "Federated Identity",
+    "definition": "Authentication model where users use external credentials to access cloud services."
+  },
+  {
+    "term": "Gateway Endpoint",
+    "definition": "Private network route to access cloud services without using the internet."
+  },
+  {
+    "term": "GitOps",
+    "definition": "Deployment and management of infrastructure using Git as the single source of truth."
+  },
+  {
+    "term": "High Throughput",
+    "definition": "Cloud system capability to process large amounts of data or requests quickly."
+  },
+  {
+    "term": "Host-Based Firewall",
+    "definition": "Firewall installed on a virtual machine to control inbound/outbound traffic."
+  },
+  {
+    "term": "Access Analyzer",
+    "definition": "AWS tool to identify resources shared outside your account."
+  },
+  {
+    "term": "Activity Log",
+    "definition": "A record of all operations performed on cloud resources."
+  },
+  {
+    "term": "Anomaly Detection",
+    "definition": "Identifying unexpected changes or patterns in cloud metrics or logs."
+  },
+  {
+    "term": "API Rate Limit",
+    "definition": "Maximum number of API requests allowed within a specific time window."
+  },
+  {
+    "term": "Application Gateway WAF",
+    "definition": "Web application firewall integrated into Azure's Application Gateway."
+  },
+  {
+    "term": "Azure Bicep",
+    "definition": "Domain-specific language (DSL) for deploying Azure resources declaratively."
+  },
+  {
+    "term": "Backup Retention",
+    "definition": "Duration for which backups are stored before being deleted."
+  },
+  {
+    "term": "Bare Metal Instance",
+    "definition": "Cloud instance that provides direct access to physical hardware without a hypervisor."
+  },
+  {
+    "term": "Burstable Instance",
+    "definition": "Compute instance that can temporarily use additional CPU resources beyond baseline."
+  },
+  {
+    "term": "Capacity Planning",
+    "definition": "Forecasting future cloud resource needs based on current usage and growth."
+  },
+  {
+    "term": "Certificate Manager",
+    "definition": "Cloud service for managing SSL/TLS certificates and their renewals."
+  },
+  {
+    "term": "Cloud Audit Logs",
+    "definition": "GCP logs that track API activity and access to services."
+  },
+  {
+    "term": "Cloud DNS Records",
+    "definition": "Entries that define how domain names are resolved to resources."
+  },
+  {
+    "term": "Cloud IDE",
+    "definition": "Integrated development environment hosted in the cloud for remote coding."
+  },
+  {
+    "term": "Cloud Orchestrator",
+    "definition": "Tool that automates the deployment and coordination of cloud services and workflows."
+  },
+  {
+    "term": "Cloud Storage Transfer",
+    "definition": "Service that moves large volumes of data to cloud storage efficiently."
+  },
+  {
+    "term": "Cloud Watcher",
+    "definition": "Azure tool for monitoring and diagnostics of network traffic and connectivity."
+  },
+  {
+    "term": "Cluster Autoscaler",
+    "definition": "Tool that adjusts the size of Kubernetes clusters based on workload demand."
+  },
+  {
+    "term": "Compliance Report",
+    "definition": "Documentation provided by CSPs to demonstrate regulatory compliance."
+  },
+  {
+    "term": "Connection String",
+    "definition": "String used by applications to connect to cloud databases or services."
+  },
+  {
+    "term": "Consumption Plan",
+    "definition": "Serverless billing model where you pay only for resource consumption."
+  },
+  {
+    "term": "Container Breakout",
+    "definition": "Security risk where an attacker escapes a container to access the host system."
+  },
+  {
+    "term": "Cost Anomaly Detection",
+    "definition": "Tool that identifies unusual spikes in cloud billing or usage."
+  },
+  {
+    "term": "Cross-Origin Resource Sharing (CORS)",
+    "definition": "Security feature that defines how web resources are shared across domains."
+  },
+  {
+    "term": "Data Encryption Key (DEK)",
+    "definition": "Symmetric key used to encrypt data directly in cloud environments."
+  },
+  {
+    "term": "Data Replication",
+    "definition": "Duplicating data across regions or zones for redundancy and availability."
+  },
+  {
+    "term": "Dedicated Interconnect",
+    "definition": "Private high-speed connection between your network and Google Cloud."
+  },
+  {
+    "term": "Default VPC",
+    "definition": "Preconfigured virtual private cloud created automatically in new cloud projects."
+  },
+  {
+    "term": "Disk Encryption",
+    "definition": "The use of encryption on cloud virtual disks to protect stored data."
+  },
+  {
+    "term": "Docker Registry",
+    "definition": "Storage and distribution system for Docker container images."
+  },
+  {
+    "term": "Elastic Job Agent",
+    "definition": "Azure tool to run and manage jobs across multiple databases."
+  },
+  {
+    "term": "Elasticity",
+    "definition": "The ability to automatically adjust cloud resource levels to match demand."
+  },
+  {
+    "term": "Event Grid",
+    "definition": "Azure event routing service for event-driven architectures."
+  },
+  {
+    "term": "Execution Role",
+    "definition": "IAM role assumed by a service to execute actions on your behalf."
+  },
+  {
+    "term": "External Secret",
+    "definition": "A secret stored outside the cluster but consumed by Kubernetes applications."
+  },
+  {
+    "term": "Federated Learning",
+    "definition": "Machine learning approach where models are trained across multiple devices without sharing data."
+  },
+  {
+    "term": "Firewall Tag",
+    "definition": "Metadata used to apply firewall rules to specific cloud instances or resources."
+  },
+  {
+    "term": "Geo-Redundancy",
+    "definition": "Data replication across geographically dispersed regions for resilience."
+  },
+  {
+    "term": "Health Check",
+    "definition": "Mechanism for determining if a cloud resource is healthy and responsive."
+  },
+  {
+    "term": "Host Maintenance Policy",
+    "definition": "Configuration defining how workloads behave during planned maintenance events."
+  },
+  {
+    "term": "Hybrid Identity",
+    "definition": "Combination of on-premises and cloud-based identities for unified access."
+  },
+  {
+    "term": "Inbound NAT Rule",
+    "definition": "Rule that maps public IP addresses to internal resources for incoming traffic."
+  },
+  {
+    "term": "Infrastructure Tagging",
+    "definition": "Labeling cloud resources for easier organization, cost tracking, and automation."
+  },
+  {
+    "term": "Instance Template",
+    "definition": "Predefined configuration for creating identical virtual machine instances."
+  },
+  {
+    "term": "IP Whitelisting",
+    "definition": "Security mechanism allowing access only from approved IP addresses."
+  },
+  {
+    "term": "Job Scheduler",
+    "definition": "Tool that triggers batch processes or workflows on defined schedules."
+  },
+  {
+    "term": "Kubernetes Secret",
+    "definition": "K8s object for storing sensitive data like passwords or tokens."
+  },
+  {
+    "term": "Landing Zone",
+    "definition": "Predefined cloud environment set up with governance, networking, and policies."
+  },
+  {
+    "term": "Load Balancing Rule",
+    "definition": "Defines how inbound traffic is distributed among backend pool members."
+  },
+  {
+    "term": "Accelerated Networking",
+    "definition": "Provides low latency and high throughput network interface for VMs."
+  },
+  {
+    "term": "API Gateway Throttling",
+    "definition": "Controls the number of requests sent to a backend through an API gateway."
+  },
+  {
+    "term": "Archive Tier",
+    "definition": "Lowest-cost cloud storage tier for infrequently accessed data."
+  },
+  {
+    "term": "Availability Set",
+    "definition": "Azure grouping to distribute VMs across multiple fault and update domains."
+  },
+  {
+    "term": "Azure AD Connect",
+    "definition": "Tool to synchronize on-premises directories with Azure AD."
+  },
+  {
+    "term": "Azure DevTest Labs",
+    "definition": "Service to quickly create environments for development and testing."
+  },
+  {
+    "term": "Billing Alarm",
+    "definition": "Notification triggered when cloud spend exceeds a defined threshold."
+  },
+  {
+    "term": "Bring Your Own License (BYOL)",
+    "definition": "Using existing software licenses on cloud infrastructure."
+  },
+  {
+    "term": "Capacity Optimization",
+    "definition": "Matching workload demand with appropriate resource allocation."
+  },
+  {
+    "term": "Cloud Anchor",
+    "definition": "Persistent point in space for augmented reality apps in cloud environments."
+  },
+  {
+    "term": "Cloud Trail",
+    "definition": "AWS service that records API activity across your account."
+  },
+  {
+    "term": "Cloud VPN",
+    "definition": "Virtual private network connection between on-prem and cloud environments."
+  },
+  {
+    "term": "Cold Start",
+    "definition": "Initial startup delay when invoking a serverless function."
+  },
+  {
+    "term": "Command Line Interface (CLI)",
+    "definition": "Text-based tool to interact with and manage cloud services."
+  },
+  {
+    "term": "Compliance Policy",
+    "definition": "Defines rules and configurations to meet security and legal requirements."
+  },
+  {
+    "term": "Config Map",
+    "definition": "Kubernetes object to store non-sensitive configuration data."
+  },
+  {
+    "term": "Connection Pooling",
+    "definition": "Technique to reuse database connections to improve performance."
+  },
+  {
+    "term": "Consumption-Based Billing",
+    "definition": "Billing model based on actual resource usage instead of pre-purchased capacity."
+  },
+  {
+    "term": "Credential Rotation",
+    "definition": "Periodic updating of passwords or keys to improve security."
+  },
+  {
+    "term": "Data Pipeline",
+    "definition": "A set of tools and processes to move and transform data between systems."
+  },
+  {
+    "term": "Data Sharding",
+    "definition": "Splitting a database into smaller parts for performance and scalability."
+  },
+  {
+    "term": "Dead Letter Topic",
+    "definition": "GCP Pub/Sub feature to catch undeliverable messages."
+  },
+  {
+    "term": "Dedicated Core",
+    "definition": "Guaranteed CPU resource allocation for virtual machines."
+  },
+  {
+    "term": "Dependency Injection",
+    "definition": "Design pattern for managing component dependencies in applications."
+  },
+  {
+    "term": "Deployment Frequency",
+    "definition": "How often code changes are deployed to production."
+  },
+  {
+    "term": "Deployment Script",
+    "definition": "Automated code for provisioning cloud resources."
+  },
+  {
+    "term": "Detached Disk",
+    "definition": "Cloud disk not attached to any instance but still retaining data."
+  },
+  {
+    "term": "Directory Service",
+    "definition": "Cloud service that manages user authentication and access control."
+  },
+  {
+    "term": "DNS Failover",
+    "definition": "Redirecting traffic to healthy endpoints when a failure is detected."
+  },
+  {
+    "term": "Elastic Scaling",
+    "definition": "Automatic expansion or reduction of resources to match demand."
+  },
+  {
+    "term": "Encryption Policy",
+    "definition": "Rules that define how and when encryption is applied to data."
+  },
+  {
+    "term": "Endpoint Monitoring",
+    "definition": "Tracking the availability and performance of application endpoints."
+  },
+  {
+    "term": "Event Trigger",
+    "definition": "An event-based signal that initiates a workflow or function."
+  },
+  {
+    "term": "External Load Balancer",
+    "definition": "Routes traffic from the internet to cloud-hosted applications."
+  },
+  {
+    "term": "Firewall Policy",
+    "definition": "Set of rules that governs network traffic behavior in cloud."
+  },
+  {
+    "term": "Floating IP",
+    "definition": "An IP address that can move between cloud resources."
+  },
+  {
+    "term": "GCP Billing Account",
+    "definition": "Central account that tracks usage and payments in Google Cloud."
+  },
+  {
+    "term": "Global Accelerator",
+    "definition": "AWS service that routes traffic through optimized paths using AWS edge locations."
+  },
+  {
+    "term": "Graceful Shutdown",
+    "definition": "Proper termination process that allows services to finish operations before stopping."
+  },
+  {
+    "term": "Group Policy",
+    "definition": "Set of permissions applied to a group of users or resources."
+  },
+  {
+    "term": "HashiCorp Vault",
+    "definition": "Tool for securely storing and accessing secrets and tokens."
+  },
+  {
+    "term": "Host Pool",
+    "definition": "Group of VMs in Azure Virtual Desktop for load balancing and user assignment."
+  },
+  {
+    "term": "Ingress Controller",
+    "definition": "Kubernetes component that manages external access to services."
+  },
+  {
+    "term": "Instance Scheduler",
+    "definition": "Tool that starts and stops cloud VMs based on schedules to save cost."
+  },
+  {
+    "term": "Interconnect Attachment",
+    "definition": "Configuration that connects on-prem networks to Google Cloud via Interconnect."
+  },
+  {
+    "term": "IoT Core",
+    "definition": "Google Cloud’s service for managing connected IoT devices."
+  },
+  {
+    "term": "Java SDK for Cloud",
+    "definition": "Language-specific software development kit to build cloud-based Java apps."
+  },
+  {
+    "term": "Kubelet",
+    "definition": "Primary node agent that runs on each Kubernetes node."
+  },
+  {
+    "term": "Latency Budget",
+    "definition": "Target time allocation for processing and responding to a request."
+  }
+]
