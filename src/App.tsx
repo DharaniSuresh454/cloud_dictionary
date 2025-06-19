@@ -9,82 +9,47 @@ interface Term {
   description: string;
 }
 
-// Sample cloud terms data
-const termsData: Term[] = [
-  {
-    term: "AWS KMS",
-    description: "AWS Key Management Service (KMS) allows you to create and control the encryption keys used to encrypt your data."
-  },
-  {
-    term: "Azure Blob Storage",
-    description: "Azure Blob Storage is Microsoft's object storage solution for the cloud."
-  },
-  {
-    term: "Google Cloud Pub/Sub",
-    description: "A messaging service for exchanging event data among applications and services."
-  },
-  {
-    term: "IAM",
-    description: "Identity and Access Management (IAM) enables you to manage access to cloud resources securely."
-  },
-  {
-    term: "Docker",
-    description: "A platform for developing, shipping, and running applications in containers."
-  },
-  {
-    term: "Kubernetes",
-    description: "An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications."
-  },
-  {
-    term: "Serverless",
-    description: "A cloud computing execution model where the cloud provider automatically manages the allocation and provisioning of servers."
-  },
-  {
-    term: "Microservices",
-    description: "An architectural style that structures an application as a collection of loosely coupled services."
-  },
-  {
-    term: "Load Balancer",
-    description: "A device that distributes network or application traffic across a number of servers."
-  },
-  {
-    term: "CDN",
-    description: "Content Delivery Network - a geographically distributed network of proxy servers and their data centers."
+// ✅ Replace with your real API Gateway invoke URL
+const fetchDefinition = async (term: string): Promise<Term[]> => {
+  try {
+    const res = await fetch(
+      `https://bekpbop916.execute-api.us-east-1.amazonaws.com/get-definition?term=${term}`
+    );
+    if (!res.ok) {
+      console.error("Failed to fetch");
+      return [];
+    }
+    const data = await res.json();
+    return [data]; // Wrap in array for consistency with map()
+  } catch (error) {
+    console.error("Error fetching definition:", error);
+    return [];
   }
-];
+};
 
 const App: React.FC = () => {
   const [query, setQuery] = React.useState("");
-  const [results, setResults] = React.useState<Term[]>(termsData);
+  const [results, setResults] = React.useState<Term[]>([]);
   const [suggestions, setSuggestions] = React.useState<string[]>([]);
 
+  // Optional: clear suggestions on query change
   React.useEffect(() => {
-    if (!query) {
-      setResults(termsData);
-      setSuggestions([]);
-      return;
-    }
-    const filtered = termsData.filter((t) =>
-      t.term.toLowerCase().includes(query.toLowerCase())
-    );
-    setSuggestions(filtered.map((t) => t.term));
+    setSuggestions([]);
   }, [query]);
 
-  const handleSearch = () => {
+  const handleSearch = async () => {
     if (!query) {
-      setResults(termsData);
+      setResults([]);
       return;
     }
-    setResults(
-      termsData.filter((t) =>
-        t.term.toLowerCase().includes(query.toLowerCase())
-      )
-    );
+    const result = await fetchDefinition(query);
+    setResults(result);
   };
 
-  const handleSuggestionClick = (val: string) => {
+  const handleSuggestionClick = async (val: string) => {
     setQuery(val);
-    setResults(termsData.filter((t) => t.term === val));
+    const result = await fetchDefinition(val);
+    setResults(result);
     setSuggestions([]);
   };
 
@@ -103,7 +68,11 @@ const App: React.FC = () => {
         <div className="flex flex-wrap justify-center mt-10">
           {results.length > 0 ? (
             results.map((t) => (
-              <TermCard key={t.term} term={t.term} description={t.description} />
+              <TermCard
+                key={t.term}
+                term={t.term}
+                description={t.description}
+              />
             ))
           ) : (
             <div className="text-slate-500 dark:text-slate-300 mt-10">
