@@ -1,4 +1,5 @@
 import React from "react";
+import Fuse from "fuse.js"; // ✅ Import Fuse
 import Header from "./components/Header";
 import ThemeToggle from "./components/ThemeToggle";
 import SearchBar from "./components/SearchBar";
@@ -27,14 +28,36 @@ const fetchDefinition = async (term: string): Promise<Term[]> => {
   }
 };
 
+// ✅ Optional: local dataset for fuzzy search
+const localTerms: Term[] = [
+  { term: "IAM", description: "Identity and Access Management in AWS." },
+  { term: "Lambda", description: "Run code without provisioning servers." },
+  { term: "S3", description: "Object storage for the cloud." },
+  { term: "CloudFront", description: "CDN to deliver content with low latency." },
+  { term: "EC2", description: "Virtual server in the cloud." },
+  // Add more if needed
+];
+
 const App: React.FC = () => {
   const [query, setQuery] = React.useState("");
   const [results, setResults] = React.useState<Term[]>([]);
   const [suggestions, setSuggestions] = React.useState<string[]>([]);
 
-  // Optional: clear suggestions on query change
+  // ✅ Fuse config for fuzzy matching
+  const fuse = new Fuse(localTerms, {
+    keys: ["term"],
+    threshold: 0.4, // Lower is stricter
+  });
+
+  // ✅ Update suggestions based on local fuzzy results
   React.useEffect(() => {
-    setSuggestions([]);
+    if (query.trim() === "") {
+      setSuggestions([]);
+      return;
+    }
+    const fuzzyResults = fuse.search(query);
+    const topSuggestions = fuzzyResults.map((result) => result.item.term);
+    setSuggestions(topSuggestions);
   }, [query]);
 
   const handleSearch = async () => {
