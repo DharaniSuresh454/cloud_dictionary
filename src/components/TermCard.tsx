@@ -1,15 +1,21 @@
 import React from "react";
+import ExplainMoreCard from "./ExplainMoreCard";
 
-interface TermCardProps {
+interface Props {
   term: string;
   description: string;
 }
 
-const TermCard: React.FC<TermCardProps> = ({ term, description }) => (
-  <div className="bg-white dark:bg-slate-800 rounded-xl shadow-md p-6 m-4 max-w-md transition hover:scale-105 hover:shadow-lg">
-    <h2 className="text-xl font-bold mb-2 text-slate-800 dark:text-white">{term}</h2>
-    <p className="text-slate-600 dark:text-slate-300">{description}</p>
-  </div>
-);
+const TermCard: React.FC<Props> = ({ term, description }) => {
+  return (
+    <div className="flex flex-col items-center gap-6 mt-6">
+      <div className="bg-white dark:bg-slate-800 p-6 rounded shadow w-full max-w-md text-center">
+        <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">{term}</h3>
+        <p className="text-slate-700 dark:text-slate-300">{description}</p>
+      </div>
+      <ExplainMoreCard term={term} />
+    </div>
+  );
+};
 
 export default TermCard;
