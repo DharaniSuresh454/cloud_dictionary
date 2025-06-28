@@ -7,8 +7,10 @@ openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 def lambda_handler(event, context):
     try:
-        print("Event:", event)
-        
+        # Log the incoming event for debugging
+        print("Received event:", json.dumps(event))
+
+        # Parse request body
         body = json.loads(event.get("body", "{}"))
         term = body.get("term")
 
@@ -22,8 +24,10 @@ def lambda_handler(event, context):
                 "body": json.dumps({"error": "Missing term"})
             }
 
+        # Generate prompt for OpenAI
         prompt = f"Explain the cloud computing term '{term}' in very simple words for a beginner."
 
+        # Call OpenAI ChatCompletion API
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -33,7 +37,11 @@ def lambda_handler(event, context):
             temperature=0.7
         )
 
-        simplified = response["choices"][0]["message"]["content"]
+        # Log the full OpenAI response
+        print("OpenAI response:", json.dumps(response, indent=2))
+
+        # Extract explanation
+        simplified = response["choices"][0]["message"]["content"].strip()
 
         return {
             "statusCode": 200,
@@ -45,6 +53,7 @@ def lambda_handler(event, context):
         }
 
     except Exception as e:
+        # Log the error
         print("Error:", str(e))
         return {
             "statusCode": 500,
