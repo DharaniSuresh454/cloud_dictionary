@@ -11,7 +11,7 @@ const ExplainMoreCard: React.FC<Props> = ({ term }) => {
   const handleAskAI = async () => {
     setLoading(true);
     try {
-      const res = await fetch("https://hp51s4ua9a.execute-api.us-east-1.amazonaws.com/prod", {
+      const res = await fetch("https://hp51s4ua9a.execute-api.us-east-1.amazonaws.com/prod/explainTermFunction", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ term }),
