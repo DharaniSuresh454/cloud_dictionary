@@ -11,13 +11,15 @@ const ExplainMoreCard: React.FC<Props> = ({ term }) => {
   const handleAskAI = async () => {
     setLoading(true);
     try {
-      const res = await fetch("https://hp51s4ua9a.execute-api.us-east-1.amazonaws.com/prod/explainTermFunction", {
+      const res = await fetch("https://phkzdea3b3.execute-api.us-east-1.amazonaws.com/prod/askai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ term }),
       });
       const data = await res.json();
-      setAnswer(data.explanation || "AI couldn't explain further.");
+      console.log("Full API response:", data);
+      setAnswer(data.explanation ?? data.error ?? "AI couldn't explain further.");
+
     } catch (error) {
       setAnswer("Something went wrong.");
     } finally {
